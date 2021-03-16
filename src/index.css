@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,77 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.section-form {
+  text-align: center;
+}
+
+.section-form h1 {
+  color: #585858;
+  font-size: 2.2rem;
+  padding: 2rem 0 1.2rem 0;
+}
+
+.section-form form input.error {
+  border: 2px solid red;
+}
+
+.section-form form input {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  margin: 0 0.5rem;
+  border: 2px solid gray;
+  line-height: 1.5;
+}
+
+.generate-btn {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  margin-top: 0 0.5rem;
+  border: 2px solid gray;
+  color: gray;
+  background-color: transparent;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.generate-btn:hover {
+  color: white;
+  background-color: gray;
+}
+
+.colors-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.color {
+  height: 200px;
+  width: 30%;
+  padding: .5rem;
+}
+
+.color-light .color-value,
+.color-light .percent-value {
+  color: white;
+}
+
+.alert {
+  text-transform: uppercase;
+  color: gray;
+  background-color: rgb(231, 231, 231);
+  padding: 0.2rem;
+  margin-top: .7rem;
+  border-radius: 0.4rem;
+  max-width: fit-content;
+}
+
+@media(max-width: 500px){
+  .color {
+    height: 150px;
+    width: 90%;
+  }
 }
