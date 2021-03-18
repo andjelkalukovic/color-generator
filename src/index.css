@@ -45,17 +45,15 @@ code {
   padding: 0.5rem 0.8rem;
   border-radius: 0.3rem;
   margin-top: 0 0.5rem;
-  border: 2px solid gray;
-  color: gray;
-  background-color: transparent;
   cursor: pointer;
   line-height: 1.5;
   font-size: 1rem;
+  border: 2px solid;
 }
 
 .generate-btn:hover {
   color: white;
-  background-color: gray;
+  transition: all 0.4s ease-in-out;
 }
 
 .colors-section {

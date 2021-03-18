@@ -28,7 +28,9 @@ function App() {
             placeholder='Your Hex Value'
             className={`${error ? 'error' : null}`} />
 
-          <button type='submit' className='generate-btn' title='Generate'>Generate</button>
+          <button type='submit' className='generate-btn' title='Generate'
+          style={{ backgroundColor: color, border: `2px solid ${color}`}}
+          >Generate</button>
         </form>
       </section>
 
