@@ -33,22 +33,24 @@ code {
 }
 
 .section-form form input {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.3rem;
   margin: 0 0.5rem;
   border: 2px solid gray;
   line-height: 1.5;
+  font-size: 1rem;
 }
 
 .generate-btn {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.3rem;
   margin-top: 0 0.5rem;
   border: 2px solid gray;
   color: gray;
   background-color: transparent;
   cursor: pointer;
   line-height: 1.5;
+  font-size: 1rem;
 }
 
 .generate-btn:hover {
